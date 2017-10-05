@@ -15,7 +15,7 @@
 .list-tree {
   li:not(.list-nested-item),
   li.list-nested-item > .list-item {
-    color: @text-color;
+    color: @oc-gray-6;
   }
 
   .generate-list-item-status-color(@color, @status) {
@@ -33,7 +33,7 @@
 
   .generate-list-item-status-color(@oc-green-6, added);
   .generate-list-item-status-color(@oc-gray-6, ignored);
-  .generate-list-item-status-color(@oc-yellow-7, modified);
+  .generate-list-item-status-color(@ui-site-color-3, modified);
   .generate-list-item-status-color(@oc-red-9, removed);
   .generate-list-item-status-color(@oc-blue-9, renamed);
 }
